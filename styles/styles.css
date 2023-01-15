@@ -221,7 +221,7 @@ button {
     padding: 45px;
     width: 342px;
     height: 200px;
-    left:500px;
+    left: 500px;
     color: #FFFFFF;
     background: #FF900E;
 }
@@ -230,23 +230,25 @@ button {
     font-weight: 700;
     font-size: 65px;
 }
-#position-img{
-    position:relative;
-    z-index:1;
+
+#position-img {
+    position: relative;
+    z-index: 1;
 }
 
-#position-btn{
-    position:relative;
+#position-btn {
+    position: relative;
     top: -150px;
-    left:10px;
-   z-index: 2;
+    left: 10px;
+    z-index: 2;
 }
+
 */
+
 /* Achivement section */
-.achivement{
-    
-}
-.achivement-title{
+.achivement {}
+
+.achivement-title {
     font-weight: 700;
     font-size: 45px;
     color: #131313;
@@ -254,64 +256,87 @@ button {
     margin-bottom: 24px;
     margin-left: 240px;
 }
-.achivement-detail{
+
+.achivement-detail {
     font-weight: 400;
     font-size: 16px;
     color: #727272;
     margin-top: 24px;
-    margin-bottom:100px;
+    margin-bottom: 100px;
     margin-left: 240px;
 }
-.achivement-icon{
+
+.achivement-icon {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 134px;
     margin-left: 240px;
-  
+
 }
-.acv-box{
+
+.acv-box {
     width: 241.83px;
     height: 241.83px;
     border: 1px solid #FF900E;
     border-radius: 8px;
-   padding:32px;
-  
-}
-.number{
-    font-weight: 600;
-font-size: 45px;
-color:  #424242;
-}
-.text{
-    font-weight: 600;
-font-size: 20px;
-color: #727272;
-}
-/* ---------------------sponsor-description------------------ */
-.sponsor-description{
- text-align: center;
-}
-.s-title{
-    font-weight: 700;
-font-size: 45px;
-margin-top: 180px;
-color: #131313;
-}
-.s-detail{
-    font-weight: 400;
-font-size: 16px;
-    margin-top: 24px;
-margin-bottom: 50px;
-color:#727272;
-}
-.sponsors{
-display: flex;
-justify-content: center;
-align-items: center;
-gap:100px
+    padding: 32px;
+
 }
 
+.number {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+
+.text {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+
+/* ---------------------sponsor-description------------------ */
+.sponsor-description {
+    text-align: center;
+}
+
+.s-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 180px;
+    color: #131313;
+}
+
+.s-detail {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 50px;
+    color: #727272;
+}
+
+.sponsors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+footer {
+
+    width: 1440px;
+    height: 100px;
+    margin-top: 130px;
+     margin-bottom:216px;
+
+    padding: 40px 410px;
+
+    background: #FFF4E7;;
+    border-radius: 8px;
+}
 
 /* ------------make Responsive for Mobile Device------------ */
 /* @media only screen and (max-width:576px) {
