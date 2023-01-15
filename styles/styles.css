@@ -294,6 +294,62 @@ button {
     color: #727272;
 }
 
+
+/* ----------------hire section----------------- */
+.hire {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-top: 144px;
+    margin-bottom: 24px;
+
+
+}
+
+.details {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+    margin-bottom: 100px;
+    margin-left: 240px;
+}
+
+.designers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+    margin-top: 144px;
+}
+
+.designer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.designer img {
+    margin-top: 10px;
+}
+
+.designer-name {
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+.hire .btn-primary {
+    padding: 12px;
+
+}
+
 /* ---------------------sponsor-description------------------ */
 .sponsor-description {
     text-align: center;
@@ -325,7 +381,8 @@ button {
 
 footer {
 
-   width:500px;;
+    width: 500px;
+    ;
     height: 100px;
     margin-top: 130px;
     margin-bottom: 216px;
