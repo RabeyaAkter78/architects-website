@@ -16,9 +16,8 @@
 
 /* header section styles */
 .header {
-    width: 100%;
-    height: 1322px;
-    /* position: absolute; */
+    /* width: 100%; */
+    height: 1322px; 
     background-color: rgba(255, 144, 14, 0.1);
     font-family: 'Work Sans', sans-serif;
 }
@@ -199,7 +198,7 @@ button {
     margin-top: 10px;
     /* padding-left: 30px; */
     color: #727272;
-    text-overflow: ellipsis;
+
 }
 
 .container-img {
@@ -396,18 +395,18 @@ footer {
     border-radius: 8px;
 }
 
-/* ------------make Responsive for Mobile Device------------ */
-/* @media only screen and (max-width:576px) {
-    nav {
-        
-        flex-direction:column;
-        justify-content: center;
-        background-color:red;
+ /* ------------make Responsive for Mobile Device------------
+@media only screen and (max-width:576px) { 
+nav ul {
+flex-direction:column;
     
+   
+ }
+.features{
+   display: none;
 }
-nav .ul{
-display: none;
-justify-content:flex-end
-} 
 
- } */
+ .feature-img{
+   grid-template-columns: none;
+ }
+}  */
