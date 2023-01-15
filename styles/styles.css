@@ -244,8 +244,7 @@ button {
 }
 
 
-/*---------------------- Achivement section ----------------------------------*/
-.achivement {}
+/*----------------------Achievement section----------------------------------*/
 
 .achivement-title {
     font-weight: 700;
@@ -326,14 +325,13 @@ button {
 
 footer {
 
-    width: 1440px;
+   width:500px;;
     height: 100px;
     margin-top: 130px;
-     margin-bottom:216px;
-
+    margin-bottom: 216px;
     padding: 40px 410px;
-
-    background: #FFF4E7;;
+    background: #FFF4E7;
+    border: 0;
     border-radius: 8px;
 }
 
