@@ -52,6 +52,9 @@ nav li {
     margin-left: 50px;
 
 }
+li:hover{
+    color:rgb(46, 197, 197);
+}
 
 /* ----------------description section styles--------- */
 .banner {
@@ -97,13 +100,7 @@ nav li {
 }
 
 /* -----------------Main (Features) section----------- */
-/* .section{
-    margin-top: 130px
-}
-main {
-    width:100%;
-     margin: 0 auto;
-} */
+
 .features {
 
     display: flex;
@@ -263,14 +260,19 @@ button {
     margin-bottom: 100px;
     margin-left: 240px;
 }
-
+.acv-box:hover{
+  width: 400px;  
+  background-color: aquamarine;
+}
 .achivement-icon {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 134px;
-    margin-left: 240px;
-
+    
+    margin-left: 200px;
+   
+   
 }
 
 .acv-box {
@@ -279,7 +281,8 @@ button {
     border: 1px solid #FF900E;
     border-radius: 8px;
     padding: 32px;
-
+    transition:width 5s;
+   
 }
 
 .number {
